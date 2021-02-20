@@ -1,0 +1,13 @@
+#list of alphabets
+alphabets = ['a','e','i' ,'o','u']
+#function that filters vowels
+def filterVowels(alphabets):
+  vowels = ['a','e','i','o','u']
+  if(alphabet in vowels):
+    return true
+  else:
+    return false
+filterVowels = filter(filterVowels, alphabets)
+print("The literal vowels are: ")
+for vowel in filterVowels:
+  print(vowel)
